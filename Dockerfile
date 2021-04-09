@@ -1,5 +1,5 @@
 FROM node:latest
-MAINTAINER Christian Lück <christian@lueck.tv>
+LABEL MAINTAINER="thiagohferreira10@gmail.com"
 
 RUN npm install -g json-server
 

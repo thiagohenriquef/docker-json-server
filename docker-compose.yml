@@ -1,0 +1,11 @@
+version: "3"
+services:
+  json-server:
+    build:
+        context: .
+    network_mode: host
+    ports:
+      - "80:80"
+    volumes:
+      - ./data/routes.json:/data/routes.json
+      - ./data/db.json:/data/db.json
